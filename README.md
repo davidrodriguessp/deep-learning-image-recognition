@@ -7,6 +7,6 @@
 
 In this project, we created different models to predict handwritten digits. We used a dataset available in the Scikit-learn Python library called `load_digits()`. The dataset has 1,797 images. Initially, we created a model using the K-nearest neighbors algorithm. Then, we built different models using Artificial Neural Networks.
 
-The conclusion was that with Artificial Neural Networks, especially with models that include multiple hidden layers (Deep Artificial Neural Networks), it was possible to reach state-of-the art predictions, with 99% accuracy, even when 5-fold cross validation was used.
+The conclusion was that the different models reached similar scores, but K-nearest Neighbors (KNN) with k=1 had a slightly better performance, reaching 99% accuracy.
 
 Notebook: Deep Learning for Image Recognition.ipynb
